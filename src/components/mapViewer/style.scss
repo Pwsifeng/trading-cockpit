@@ -1,0 +1,10 @@
+#mapv3dContainer{
+    position: absolute;
+    top:0;
+    left: 0;
+    video{
+        width: 100vw !important;;
+        height: 100vh !important;;
+        object-fit: fill;
+    }
+}

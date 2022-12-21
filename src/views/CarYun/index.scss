@@ -1,0 +1,196 @@
+#caryun {
+  position: relative;
+  // top: 94px;
+  background: url('../../assess/caryun/img_car_2.5.png') center center no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 1080px;
+  z-index: 1;
+
+  .title {
+    background: url('../../assess/images/title_1.png') center center no-repeat;
+    background-size: 100% 100%;
+    width: 500px;
+    height: 37px;
+  }
+
+  .smart-left {
+    position: absolute;
+    left: 30px;
+    z-index: 1;
+    width:500px;
+    height:auto;
+    top: 94px;
+
+    h2 {
+      color: #fff;
+      font-size: 15px;
+      font-weight: 500;
+      margin-left: 47px;
+    }
+
+    .che {
+      // width: 612px;
+      width: 500px;
+      height: 350px;
+
+      .sel {
+        margin: 16px 0 13px 0;
+        width: 329px;
+        height: 36px;
+        background: url('../../assess/caryun/box_resarch2.png') center center no-repeat;
+        background-size: 100% auto;
+        display: flex;
+        align-items: center;
+        line-height: 36px;
+        span {
+          margin-left: 20px;
+          color: #fff;
+        }
+        img {
+          margin-left: 170px;
+        }
+      }
+      table {
+        width: 480px;
+        height: 126px;
+        text-align: center;
+
+        thead {
+          width: 480px;
+          height: 31px;
+          background: url('../../assess/caryun/title_zxgc_gd.png') center center no-repeat;
+          background-size: 100% auto;
+        }
+
+        tbody {
+          tr {
+            border-bottom: #fff 1px solid;
+            height: 35px;
+          }
+        }
+
+        td {
+          color: #fff;
+          border-bottom: #fff 1px solid;
+          font-size: 14px;
+        }
+      }
+    }
+    .chezai {
+      width: 500px;
+      height: 380px;
+      .sel {
+        margin: 16px 0 13px 0;
+        width: 329px;
+        height: 36px;
+        background: url('../../assess/caryun/box_resarch2.png') center center no-repeat;
+        background-size: 100% auto;
+        display: flex;
+        align-items: center;
+        line-height: 36px;
+        span {
+          margin-left: 20px;
+          color: #fff;
+        }
+        img {
+          margin-left: 170px;
+        }
+      }
+
+      ul {
+        li {
+          width: 500px;
+          height: 38px;
+          // margin-bottom: 10px;
+          background: url('../../assess/caryun/box_1_jk.png') center center no-repeat;
+          background-size: 100% auto;
+          position: relative;
+          line-height: 38px;
+
+          span{
+            color: #fff;
+            position: absolute;
+            left: 30px;
+          }
+
+          img {
+            top: 6px;
+            color: #fff;
+            position: absolute;
+            left: 406px;
+          }
+        }
+
+        li:nth-child(1) {
+          margin-top: 6px;
+        }
+      }
+    }
+  }
+
+  .party-right {
+    position: absolute;
+    right: 30px;
+    z-index: 1;
+    width:500px;
+    height:auto;
+    top: 94px;
+
+    .title2 {
+      background: url('../../assess/images/title_2.png') center center no-repeat;
+      background-size: 100% 100%;
+      width: 500px;
+      height: 37px;
+      position: relative;
+    }
+
+    h2 {
+      color: #fff;
+      font-size: 15px;
+      font-weight: 500;
+      right: 42px;
+      position: absolute;
+    }
+
+    .yixin {
+      height: 219px;
+      width: 500px;
+      table {
+        width: 480px;
+        height: 126px;
+        text-align: center;
+        margin-top: 25px;
+        margin-left: 10px;
+
+        thead {
+          width: 480px;
+          height: 31px;
+          background: url('../../assess/caryun/title_zxgc_gd.png') center center no-repeat;
+          background-size: 100% auto;
+        }
+
+        tbody {
+          tr {
+            border-bottom: #fff 1px solid;
+            height: 35px;
+          }
+        }
+
+        td {
+          color: #fff;
+          border-bottom: #fff 1px solid;
+          font-size: 14px;
+        }
+        .si {
+          color: #FF833E;
+        }
+        .ci {
+          color: #2AE094;
+        }
+      }
+
+    }
+  }
+
+}

@@ -1,0 +1,20 @@
+#home {
+  // @include notSelect;
+  position: relative;
+  top: 94px;
+  // background: url('../../assess/home/img_home_1.1.png') center center no-repeat;
+  // background-size: 100% 100%;
+  // z-index: 1;
+  // height: 1080px;
+
+  .home_bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: url('../../assess/home/img_home.png') center no-repeat;
+    background-size: 100% 100%;
+    pointer-events: none;
+    z-index: 1;
+  }
+}

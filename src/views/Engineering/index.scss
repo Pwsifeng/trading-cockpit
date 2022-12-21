@@ -1,0 +1,596 @@
+#engin {
+  // @include notSelect;
+  position: relative;
+  top: 94px;
+
+  .title {
+    background: url('../../assess/engin/title_1.png') center center no-repeat;
+    background-size: 100% 100%;
+    font-size: 15px;
+
+    width: 500px;
+    height: 37px;
+  }
+
+  .engin-left {
+    position: absolute;
+    left: 30px;
+    z-index: 1;
+
+    h2 {
+      color: #fff;
+      font-size: 15px;
+      font-weight: 500;
+      margin-left: 47px;
+    }
+
+    .xiangmu {
+      width: 500px;
+      height: 230px;
+      // margin-bottom: 24px;
+
+      .sel {
+        margin: 16px 0 13px 0;
+        width: 329px;
+        height: 36px;
+        background: url('../../assess/images/box_research_1.png') center center no-repeat;
+        display: flex;
+        align-items: center;
+
+
+        span {
+          margin-left: 19px;
+          font-size: 14px;
+
+          color: #fff;
+        }
+
+      }
+
+      .xiang {
+        display: flex;
+
+        // .shu {
+        //   width: 158px;
+        //   height: 100px;
+        //   background: url('../../assess/engin/img_zxgc_1.png') center center no-repeat;
+
+        //   p {
+        //     height: 44px;
+        //     color: #76FFFF;
+        //     line-height: 64px;
+        //     // margin-left: 74px;
+        //     font-size: 28px
+        //   }
+        // }
+
+        .mian {
+          width: 150px;
+          height: 115px;
+          background: url('../../assess/engin/img_zxgc_1.png') center center no-repeat;
+          margin: 0 9px;
+
+          p {
+            height: 44px;
+            color: #76FFFF;
+            line-height: 64px;
+            // margin-left: 74px;
+            font-size: 18px
+          }
+        }
+
+        .shi {
+          width: 158px;
+
+          height: 125px;
+          background: url('../../assess/engin/img_zxgc_1.png') center center no-repeat;
+
+          p {
+            height: 44px;
+            color: #76FFFF;
+            line-height: 64px;
+            // margin-left: 74px;
+            font-size: 28px
+          }
+        }
+
+        span {
+          display: inline-block;
+          height: 18px;
+          line-height: 18px;
+          margin: 4px 0 0 103px;
+          color: #fff;
+        }
+
+        p {
+          height: 44px;
+          color: #76FFFF;
+          line-height: 44px;
+          margin-left: 103px;
+          font-size: 28px
+        }
+      }
+    }
+
+    .gongcheng {
+      width: 500px;
+      height: 250px;
+
+      .xiangmuxianqing {
+
+        // padding-top: 30px;
+        background: url('../../assess/engin/box_zjgc_pro(1).png') center center no-repeat;
+        background-size: 100% 100%;
+        width: 500px;
+        height: 250px;
+        font-size: 14px;
+
+      }
+
+      .xinxi {
+        width: 500px;
+        height: 250px;
+        background-size: 100% 100%;
+        padding-left: 10px;
+        // background: url('../../assess/engin/box_zjgc_pro(1).png') center center no-repeat;
+        margin: 21px 0 16px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span {
+          color: #fff;
+        }
+      }
+
+      .search {
+        width: 425px;
+        font-size: 14px;
+        float: left;
+        // height: 125px;
+        background: url('../../assess/engin/box_resarch2.png') center center no-repeat;
+
+        p {
+          height: 44px;
+          font-size: 14px;
+
+          color: #fff;
+          // line-height: 64px;
+          padding-top: 30px;
+          padding-left: 20px;
+          float: left;
+          text-align: center;
+        }
+
+        .searchbutton {
+          margin-left: 260px;
+          padding-bottom: 10px;
+          width: 40px;
+          background: url('../../assess/engin/icon_resarch2.png') center center no-repeat;
+        }
+      }
+
+      table {
+        width: 500px;
+        height: 480px;
+        // overflow: auto;
+        text-align: center;
+        // border: #fff 1px solid;
+        thead {
+          width: 100%;
+          height: 39px;
+          .tb1 {
+            width: 130px;
+          }
+          .tb2 {
+            width: 130px;
+          }
+        }
+        td {
+          border: rgba(255, 255, 255, 0.479) 1px solid;
+          color: #fff;
+        }
+        tbody {
+          height: 438px;
+          overflow: auto;
+        }
+      }
+
+
+      ul {
+        width: 500px;
+        padding-left: 0px;
+
+
+        li {
+          width: 500px;
+          height: 38px;
+          // background: url('../../assess/images/box_1_jk.png') center center no-repeat;
+          margin-top: 12px;
+          display: flex;
+          flex-wrap: wrap;
+          margin-left: 0px;
+          position: relative;
+
+          .projectname {
+            width: 390px;
+            margin-left: 20px;
+            padding-top: 12px;
+            // line-height: 50px;
+            font-size: 18x;
+            padding-left: 25px;
+            color: #fff;
+          }
+
+          .loction {
+            // width: 12px;
+            // height: 8px;
+            background: url('../../assess/engin/icon_map.png') center center no-repeat;
+
+            background-size: 100% 100%;
+            margin-top: 20px;
+            // display: flex;
+            margin-left: 0px;
+            position: relative;
+          }
+
+          .area {
+            // width: 631px;
+            // height: 38px;
+            background: url('../../assess/engin/icon_map(1).png') center center no-repeat;
+            background-size: 100% 100%;
+
+            margin-top: 12px;
+            // display: flex;
+            margin-left: 0px;
+            position: relative;
+          }
+
+          .content {
+            // width: 631px;
+            // height: 38px;
+            background: url('../../assess/engin/icon_content.png') center center no-repeat;
+            background-size: 100% 100%;
+
+            margin-top: 12px;
+            // display: flex;
+            margin-left: 0px;
+            position: relative;
+          }
+
+          .plan {
+            // width: 631px;
+            // height: 38px;
+            background: url('../../assess/engin/icon_plan.png') center center no-repeat;
+            background-size: 100% 100%;
+
+            margin-top: 12px;
+            // display: flex;
+            margin-left: 0px;
+            position: relative;
+          }
+
+          .jindu {
+
+            // width: 631px;
+            // height: 38px;
+            background: url('../../assess/engin/icon_content(3).png') center center no-repeat;
+            background-size: 100% 100%;
+
+            margin-top: 12px;
+            // display: flex;
+            margin-left: 0px;
+            position: relative;
+          }
+
+          .rateline {
+            width: 400px;
+            height: 7px;
+            background: linear-gradient(270deg, #37D6F9 0%, #205ED5 100%);
+            border-radius: 25px 25px 25px 25px;
+            opacity: 1;
+          }
+
+          span {
+            display: inline-block;
+            width: 24px;
+            font-size: 14px;
+
+            height: 8px;
+            margin-right: 10px;
+            padding-bottom: 5px;
+            background: url('../../assess/engin/icon_map.png') center center no-repeat;
+          }
+
+          p {
+            margin-left: 10px;
+
+            // line-height: 38px;
+            color: #fff;
+          }
+
+          img {
+            position: absolute;
+            left: 574px;
+            top: 6px;
+          }
+        }
+      }
+
+    }
+  }
+
+  .engin-right {
+    position: absolute;
+    width: 500px;
+    height: auto;
+
+    right: 30px;
+    z-index: 1;
+
+    .title2 {
+      background: url('../../assess/images/title_2.png') center center no-repeat;
+      background-size: 100% 100%;
+      width: 500px;
+      height: 37px;
+      position: relative;
+      font-size: 15px;
+
+    }
+
+    .xiang {
+      display: flex;
+
+      .shu {
+        width: 198px;
+        margin-top: 20px;
+        // height: 125px;
+        font-size: 14px;
+
+        background: url('../../assess/engin/btn_gdxx_default.png') center center no-repeat;
+
+        p {
+          font-size: 14px;
+
+          height: 44px;
+          color: #40BAFF;
+          // line-height: 64px;
+          margin-left: 10px;
+          font-size: 14px;
+          text-align: center;
+        }
+      }
+
+      .mian {
+        width: 198px;
+        margin-top: 20px;
+        // height: 125px;
+        background: url('../../assess/engin/btn_gdxx_sele.png') center center no-repeat;
+        // margin: 0 9px;
+
+        p {
+          height: 44px;
+          color: #76FFFF;
+          // line-height: 64px;
+          margin-left: 15px;
+          font-size: 14px;
+
+          text-align: center;
+        }
+      }
+
+      .shi {
+        width: 198px;
+        margin-top: 20px;
+        // height: 125px;
+        background: url('../../assess/engin/btn_gdxx_default.png') center center no-repeat;
+
+        p {
+          height: 44px;
+          color: #40BAFF;
+          // line-height: 64px;
+          margin-left: 10px;
+          text-align: center;
+          font-size: 14px;
+
+        }
+      }
+
+
+
+      span {
+        display: inline-block;
+        height: 26px;
+        line-height: 26px;
+        font-size: 14px;
+
+        margin: 4px 0 0 103px;
+        color: #fff;
+      }
+
+      p {
+        height: 44px;
+        color: #76FFFF;
+        line-height: 44px;
+        margin-left: 103px;
+        font-size: 28px
+      }
+    }
+
+    .searchgongdi {
+      width: 500px;
+      height: 25px;
+
+      .search {
+        width: 425px;
+        // margin-top: 20px;
+        font-size: 14px;
+
+        float: right;
+        // height: 125px;
+        background: url('../../assess/engin/box_resarch2.png') center center no-repeat;
+
+        p {
+          height: 44px;
+          font-size: 14px;
+
+          color: #fff;
+          // line-height: 64px;
+          padding-top: 30px;
+          padding-left: 20px;
+          float: left;
+          text-align: center;
+        }
+      }
+
+      .searchbutton {
+        padding-right: -20px;
+        padding-bottom: 10px;
+        width: 40px;
+        background: url('../../assess/engin/icon_resarch2.png') center center no-repeat;
+      }
+    }
+
+
+    h2 {
+      color: #fff;
+      font-size: 15px;
+      font-weight: 500;
+      right: 42px;
+      position: absolute;
+    }
+
+    .gongdi {
+      // height: 150px;
+      width: 500px;
+
+      .ech {
+        width: 100%;
+        height: 214px;
+      }
+    }
+
+    .table {
+      width: 500px;
+      height: 226px;
+
+      .tabelhead {
+        width: 414px;
+        height: 26px;
+        background: url('../../assess/engin/title_zxgc_gd.png') center center no-repeat;
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 14px;
+        font-size: 14px;
+
+
+
+        p {
+          color: #fff;
+          margin-left: 41px;
+          font-size: 14px;
+
+        }
+
+      }
+
+      th {
+        color: #fff;
+        font-size: 14px;
+
+      }
+
+      th {
+        color: #fff;
+        font-size: 14px;
+
+      }
+
+      td {
+        color: #fff;
+        font-size: 14px;
+
+      }
+    }
+
+
+
+    .zong {
+      margin-top: 30px;
+      width: 500px;
+
+      // .carline{
+      //   width: 56px;
+      //   height: 56px;
+      //   background: linear-gradient(180deg, #4BEEEE 0%, #4B8CEE 100%);
+      //   opacity: 1;
+      // }
+
+      .til {
+        display: flex;
+
+        .carline {
+          width: 56px;
+          height: 56px;
+          background: linear-gradient(180deg, #4BEEEE 0%, #4B8CEE 100%);
+          opacity: 1;
+        }
+
+        .car {
+
+          width: 198px;
+          height: 125px;
+          background: url('../../assess/engin/icon_mh_car.png') center center no-repeat;
+        }
+
+        .carpart {
+          font-size: 14px;
+
+          width: 160px;
+          height: 21px;
+          font-family: Microsoft YaHei-Regular, Microsoft YaHei;
+          font-weight: 400;
+          color: #71F6FF;
+          line-height: 19px;
+          // -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+        .partrate {
+          font-size: 14px;
+
+          height: 44px;
+          color: #76FFFF;
+          // line-height: 64px;
+          // margin-left: 15px;
+          margin-top: 25px;
+          // text-align: center;          // width: 160px;
+          // height: 21px;
+          // font-size: 16px;
+          // font-family: Microsoft YaHei-Regular, Microsoft YaHei;
+          // font-weight: 400;
+          // color: #71F6FF;
+          // line-height: 19px;
+          // -webkit-background-clip: text;
+          // -webkit-text-fill-color: transparent;
+        }
+
+        .partnum {
+          color: #fff;
+          margin-top: 25px;
+          padding-left: 20px;
+        }
+      }
+
+      .ech {
+        width: 100%;
+        height: 314px;
+        margin-top: -60px;
+      }
+
+    }
+
+
+
+  }
+}

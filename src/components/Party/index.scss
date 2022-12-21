@@ -1,0 +1,385 @@
+#party {
+  // @include notSelect;
+  position: relative;
+  top: 94px;
+
+  .title {
+    background: url('../../assess/images/title_1.png') center center no-repeat;
+    background-size: 100% 100%;
+    width: 500px;
+    height: 37px;
+  }
+
+  .party-left {
+    position: absolute;
+    left: 30px;
+    z-index: 1;
+    width:500px;
+    height:auto;
+
+    h2 {
+      color: #fff;
+      font-size: 15px;
+      font-weight: 500;
+      margin-left: 47px;
+    }
+
+    .zuzhi {
+      width: 500px;
+      height: 170px;
+      // margin-bottom: 24px;
+
+      .xin {
+        height: 133px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+          width: 82px;
+          height: 84px;
+        }
+
+        .tiao {
+          height: 133px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+
+          p:nth-child(1) {
+            background: url('../../assess/party/box_djwh_1.png') center center no-repeat;
+            background-size: 100% auto;
+            width: 300px;
+            height: 39px;
+            margin-right: 100px;
+            line-height: 39px;
+
+            span {
+              color: #fff;
+              font-size: 14px;
+              margin-left: 29px;
+            }
+          }
+
+          p:nth-child(2) {
+            background: url('../../assess/party/box_djwh_2.png') center center no-repeat;
+            background-size: 100% auto;
+            width: 300px;
+            height: 39px;
+            margin-left: 100px;
+            line-height: 39px;
+
+            span {
+              color: #fff;
+              font-size: 14px;
+              margin-left: 33px;
+            }
+          }
+        }
+
+      }
+    }
+
+    .renshu {
+      width: 500px;
+      height: 243px;
+      margin-bottom: 4px;
+
+      .num {
+        width: 100%;
+        height: 44px;
+        margin-top: 8px;
+        display: flex;
+        margin-bottom: 8px;
+
+        p {
+          background: url('../../assess/party/box_dyrs.png') center center no-repeat;
+          background-size: 100% auto;
+          width: 200px;
+          height: 44px;
+          line-height: 44px;
+          position: relative;
+
+          span:nth-child(1) {
+            color: #fff;
+            font-size: 16px;
+            position: absolute;
+            left: 14px;
+          }
+
+          span:nth-child(2) {
+            color: #811209;
+            font-size: 20px;
+            position: absolute;
+            left: 100px;
+          }
+
+          span:nth-child(3) {
+            color: #811209;
+            font-size: 16px;
+            position: absolute;
+            left: 150px;
+            margin-top: 4px;
+          }
+        }
+
+        p:nth-child(2) {
+          margin-left: 24px;
+
+          span:nth-child(2) {
+            color: #811209;
+            font-size: 20px;
+            position: absolute;
+            left: 130px;
+          }
+        }
+      }
+
+      table {
+        width: 480px;
+        height: 126px;
+        text-align: center;
+
+        thead {
+          width: 480px;
+          height: 31px;
+          background: url('../../assess/party/box_djhd.png') center center no-repeat;
+          background-size: 100% auto;
+        }
+
+        tbody {
+          tr {
+            border-bottom: #fff 1px solid;
+          }
+        }
+
+        td {
+          color: #fff;
+          border-bottom: #fff 1px solid;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .fengcai {
+      width: 100%;
+      height: 258px;
+
+      .tu {
+        width: 100%;
+        display: flex;
+        height: 221px;
+        justify-content: space-around;
+        margin-top: 20px;
+
+        .left {
+          width: 198px;
+          height: 216px;
+          background: url('../../assess/party/box_djfc_left.png') center center no-repeat;
+          position: relative;
+
+          img {
+            position: absolute;
+            left: 44px;
+            top: 39px;
+          }
+
+          p {
+            color: #FF7235;
+            position: absolute;
+            top: 161px;
+            left: 73px;
+          }
+        }
+
+        .zhong {
+          width: 198px;
+          height: 216px;
+          background: url('../../assess/party/box_djfc_middle.png') center center no-repeat;
+          position: relative;
+
+          img {
+            position: absolute;
+            left: 44px;
+            top: 39px;
+          }
+
+          p {
+            color: #FF7235;
+            position: absolute;
+            top: 162px;
+            left: 56px;
+          }
+        }
+
+        .right {
+          width: 198px;
+          height: 216px;
+          background: url('../../assess/party/box_djfc_right.png') center center no-repeat;
+          position: relative;
+
+          img {
+            position: absolute;
+            left: 44px;
+            top: 39px;
+          }
+
+          p {
+            color: #FF7235;
+            position: absolute;
+            top: 161px;
+            left: 75px;
+          }
+        }
+      }
+      
+    }
+    .huodong {
+      width: 100%;
+      height: 200px;
+
+      ul {
+        li {
+          width: 500px;
+          height: 35px;
+          margin-bottom: 10px;
+          background: url('../../assess/party/box_djhd.png') center center no-repeat;
+          position: relative;
+          line-height: 35px;
+
+          span:nth-child(1) {
+            color: #fff;
+            position: absolute;
+            left: 11px;
+          }
+
+          span:nth-child(2) {
+            color: #fff;
+            position: absolute;
+            left: 426px;
+          }
+        }
+
+        li:nth-child(1) {
+          margin-top: 6px;
+        }
+      }
+    }
+  }
+
+  .tan {
+    width: 549px;
+    height: 750px;
+    position: absolute;
+    left: 884px;
+    top: 114px;
+    background: url('../../assess/party/box_djgz.png') center center no-repeat;
+
+    .til {
+      width: 529px;
+      height: 35px;
+      margin: 11px 0 0 10px;
+      align-items: center;
+      display: flex;
+      h3 {
+        font-size: 18px;
+        color: #fff;
+        margin-left: 39px;
+        font-weight: 500;
+      }
+      img {
+        margin-left: 280px;
+        cursor: pointer;
+      }
+    }
+
+    p {
+      width: 318px;
+      height: 20px;
+      font-size: 12px;
+      margin-left: 23px;
+      margin-top: 9px;
+      color: #fff;
+    }
+
+    .wenzi {
+      width: 494px;
+      height: 675px;
+      margin-left: 23px;
+      margin-top: 10px;
+      color: #fff;
+    }
+  }
+
+  .party-right {
+    position: absolute;
+    right: 30px;
+    z-index: 1;
+    width:500px;
+    height:auto;
+
+    .title2 {
+      background: url('../../assess/images/title_2.png') center center no-repeat;
+      background-size: 100% 100%;
+      width: 500px;
+      height: 37px;
+      position: relative;
+    }
+
+    h2 {
+      color: #fff;
+      font-size: 15px;
+      font-weight: 500;
+      right: 42px;
+      position: absolute;
+    }
+
+    .yixin {
+      height: 219px;
+      width: 500px;
+
+
+    }
+
+    ul {
+      li {
+        width: 500px;
+        height: 34px;
+        margin-bottom: 8px;
+        background: url('../../assess/party/box_exxd.png') center center no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        line-height: 37px;
+
+        span:nth-child(1) {
+          color: #fff;
+          position: absolute;
+          left: 50px;
+        }
+
+        span:nth-child(2) {
+          color: #fff;
+          position: absolute;
+          left: 420px;
+        }
+      }
+
+      li:nth-child(1) {
+        margin-top: 6px;
+      }
+    }
+
+    .bangfu {
+      height: 259px;
+      width: 500px;
+      margin-top: 50px;
+    }
+
+    .jiankang {
+      height: 259px;
+      width: 612px;
+      margin-top: 50px;
+    }
+  }
+}

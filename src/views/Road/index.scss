@@ -1,0 +1,200 @@
+#road {
+  // @include notSelect;
+  position: relative;
+  // top: 94px;
+  width: 100%;
+  height: 1080px;
+  background: url('../../assess/road/img_clxt_2.4.png') center center no-repeat;
+  background-size: 100% auto;
+  z-index: 1;
+
+  .title {
+    background: url('../../assess/engin/title_1.png') center center no-repeat;
+    background-size: 100% 100%;
+
+    width: 500px;
+    height: 37px;
+    font-size: 15px;
+
+  }
+
+  .assetManagement-left {
+    position: absolute;
+    left: 30px;
+    z-index: 1;
+    top: 94px;
+
+    h2 {
+      color: #fff;
+      font-size: 15px;
+      font-weight: 500;
+      margin-left: 47px;
+    }
+
+    .etc {
+      width: 500px;
+      height: 110px;
+
+      .carcount {
+        display: flex;
+      margin-top: 10px;
+
+
+        .today {
+          // width: 198px;
+          // height: 74px;\
+          margin-right: 10px;
+          width: 240px;
+          // height: 37px;  
+          background: url('../../assess/road/box_fecc.png') left center no-repeat;
+          background-size: 100% auto;
+        }
+
+        span {
+          display: inline-block;
+          height: 26px;
+          line-height: 26px;
+          // margin: 4px 0 0 103px;
+          margin: 8px 0 0 73px;
+          color: #fff;
+          font-size: 14px;
+        }
+
+        p {
+          height: 44px;
+          color: #76FFFF;
+          line-height: 44px;
+          margin-left: 93px;
+          font-size: 14px
+        }
+      }
+     
+    }
+
+    .roadcondition {
+      width: 500px;
+      height: 160px;
+      margin-top: 30px;
+
+      ul {
+        li {
+          width: 500px;
+          height: 30px;
+          margin-left: 5px;
+          position: relative;
+          margin-bottom: 10px;
+
+          // margin-top: 10px;
+          background: url('../../assess/road/box_1_dlzk.png') center center no-repeat;
+          background-size: 100% 100%;
+          
+          span {
+            height: 30px;
+            color: #fff;
+            line-height: 30px;
+            margin-left: 14px;
+            font-size: 14px;
+            position: absolute;
+
+          }
+
+          .greenlight {
+            left: 445px;
+            color: #24E88A;
+            position: absolute;
+  
+          }
+
+          .redlight {
+            left: 445px;
+            color: #FF6A61 ;
+            position: absolute;
+  
+          }
+        }
+
+
+      }
+
+
+
+    }
+
+
+  }
+  .party-right {
+    position: absolute;
+    right: 30px;
+    z-index: 1;
+    width:500px;
+    height:auto;
+    top: 94px;
+
+    .title2 {
+      background: url('../../assess/images/title_2.png') center center no-repeat;
+      background-size: 100% 100%;
+      width: 500px;
+      height: 37px;
+      position: relative;
+    }
+
+    h2 {
+      color: #fff;
+      font-size: 15px;
+      font-weight: 500;
+      right: 42px;
+      position: absolute;
+    }
+
+    .yixin {
+      height: 219px;
+      width: 500px;
+      ul {
+        height: 102px;
+        padding-left: 15px;
+
+        li {
+          // width: 631px;
+          width: 451px;
+          height: 119px;
+          margin-top: 10px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background: url('../../assess/road/box_alarm_1.png') center center no-repeat;
+
+
+          img {
+            width: 83px;
+            height: 79px;
+            margin-left: 20px;
+          }
+
+          div {
+            height: 102px;
+            width: 320px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            p {
+              width: 100%;
+              height: 32px;
+
+              span {
+                color: #fff;
+              }
+
+              span::nth-child(1) {
+                width: 100%;
+                margin-left: 20px;
+              }
+            }
+
+          }
+        }
+      }
+    }
+  }
+
+}

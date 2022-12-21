@@ -1,0 +1,128 @@
+#layouts {
+  // width: 4096px;
+  // height: 1058px;
+  width: 100%;
+  height: 100%;
+  // height: 1080px;
+  // position: relative;
+
+  .masking_bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: url('../assess/images/bgcc.png') center no-repeat;
+    background-size: 100% 100%;
+    pointer-events: none;
+    z-index: 1;
+    // background-size: cover;
+  }
+  // .masking_bg1 {
+  //   width: 100%;
+  //   height: 100%;
+  //   position: absolute;
+  //   top: 0;
+  //   background: url('../assess/images/bg3.png') 5px 20px no-repeat;
+  //   background-size: 100% 100%;
+  //   // pointer-events: none;
+  //   z-index: 1;
+  //   // background-size: cover;
+  // }
+
+  .container {
+    float: left;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    // overflow-x: hidden;
+    // top: 0;
+
+    // .map {
+    //   width: 100%;
+    //   height: 100%;
+    //   #mapvision3d video {
+    //     display: block;
+    //     position: fixed;
+    //     left: 0;
+    //     top: 0;
+    //     width: 100vw;
+    //     height: 100vh;
+    //     object-fit: fill;
+    //    }
+    // }
+
+    // .popup {
+    //   // position: absolute;
+    //   top: 100px;
+    //   // left: 20px;
+    //   z-index: 2;
+    // }
+
+    .tian {
+      position: absolute;
+      top: 94px;
+      left: 880px;
+      width: 352px;
+      height: 128px;
+      background: url('../assess/images/box_weather.png') center no-repeat;
+      z-index: 1;
+
+      .top {
+        width: 100%;
+        height: 33px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #fff;
+
+        p {
+          color: #fff;
+        }
+        span{
+          color:#fff;
+          cursor: pointer;
+        }
+        img {
+          width: 24px;
+          height: 24px;
+          cursor: pointer;
+        }
+      }
+
+      ul {
+        width: 100%;
+        height: 96px;
+        display: flex;
+        margin-top: 5px;
+        justify-content: space-around;
+        padding-left: 0px;
+
+        li {
+          width: 66px;
+          height: 66px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          cursor: pointer;
+
+          img {
+            width: 33px;
+            height: 33px;
+          }
+
+          p {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+
+
+
+
+
+}

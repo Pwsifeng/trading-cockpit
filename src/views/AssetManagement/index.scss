@@ -1,0 +1,685 @@
+#assetManagement {
+  // @include notSelect;
+  position: relative;
+  top: 94px;
+
+  .party_bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: url('../../assess/home/img_home.png') center no-repeat;
+    background-size: 100% 100%;
+    pointer-events: none;
+    // z-index: 1;
+  }
+
+  ._xiang {
+    width: 383px;
+    height: 511px;
+    background: url('../../assess/assetManagement/img_zyyw_1.png') center center no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 530px;
+    top: 126px;
+    .til {
+      width: 100%;
+      height: 35px;
+      display: flex;
+      p {
+        color: #37CFD9;
+        margin-left: 38px;
+        margin-top: 9px;
+        font-size: 16px;
+      }
+      img {
+        width: 24px;
+        height: 24px;
+        margin-left: 198px;
+        margin-top: 9px;
+        cursor: pointer;
+      }
+    }
+    ul  {
+      width: 100%;
+      li {
+        height: 33px;
+        width: 371px;
+        line-height: 33px;
+        color: rgba(255, 255, 255, 0.9);
+        padding-left: 10px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+      li:nth-child(1) {
+        background: #278FC9;
+      }
+    }
+  }
+
+  ._xi {
+    width: 438px;
+    height: 511px;
+    background: url('../../assess/assetManagement/img_zyyw_2.png') center center no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 930px;
+    top: 126px;
+    .tl {
+      width: 100%;
+      height: 35px;
+      display: flex;
+      p {
+        font-size: 16px;
+        color: #37CFD9;
+        margin-top: 6px;
+        margin-left: 16px;
+      }
+      img {
+        width: 24px;
+        height: 24px;
+        margin-left: 42px;
+        margin-top: 6px;
+        cursor: pointer;
+      }
+    }
+    .nei {
+      width: 100%;
+      p {
+        font-size: 12px;
+        height: 20px;
+        margin: 7px 0 12px 16px;
+        color: rgba(255, 255, 255,0.9);
+      }
+      div {
+        width: 94%;
+        font-size: 14px;
+        margin-left: 3%;
+        color: rgba(255, 255, 255,0.9);
+        letter-spacing: 1px;
+      }
+      img {
+        width: 241px;
+        height: 163px;
+        margin-top: 20px;
+        margin-left: 92px;
+      }
+    }
+  }
+
+  .title {
+    background: url('../../assess/engin/title_1.png') center center no-repeat;
+    background-size: 100% 100%;
+
+    width: 500px;
+    height: 37px;
+    font-size: 15px;
+
+  }
+
+  .assetManagement-left {
+    position: absolute;
+    left: 30px;
+    z-index: 1;
+
+    h2 {
+      color: #fff;
+      font-size: 15px;
+      font-weight: 500;
+      margin-left: 47px;
+    }
+
+    .xiangmu {
+      width: 500px;
+      height: 200px;
+      // margin-bottom: 24px;
+
+      .intro{
+        // display: flex;
+        width: 500px;
+        font-size: 14px;
+        color: #fff;
+        margin-top: 15px;
+
+        .introimg{
+          width: 74px;  
+          height: 74px;
+          float: left;
+
+        }
+
+        .introduce{
+         
+
+          p{
+            color: #fff;
+            float: left;
+            font-size: 14px;
+          }
+        }
+
+      }
+   
+      .sel {
+        margin: 16px 0 13px 0;
+        width: 74px;
+        height: 74px;
+        display: flex;
+        background: url('../../assess/assetManagement/img_zcgl_1.png') center center no-repeat;
+
+        p {
+          margin-left: 19px;
+          width: 570px;
+          color: #fff;
+        }
+
+      }
+      
+
+      .xiang {
+        display: flex;
+        
+        .shi {
+          width: 198px;
+          height: 125px;
+          background: url('../../assess/engin/img_zxgc_1.png') center center no-repeat;
+          background-size: 100% 100%;
+          
+
+          p {
+            height: 44px;
+            color: #76FFFF;
+            line-height: 64px;
+            // margin-left: 74px;
+            font-size: 14px;
+            cursor: pointer;
+          }
+        }
+
+        span {
+          display: inline-block;
+          height: 26px;
+          line-height: 26px;
+          margin: 4px 0 0 103px;
+          color: #fff;
+          font-size: 14px
+
+        }
+
+        p {
+          height: 44px;
+          color: #76FFFF;
+          line-height: 44px;
+          margin-left: 103px;
+          font-size: 14px
+        }
+      }
+
+
+      
+    }
+
+    .zhuyewu {
+      width: 500px;
+      height: 160px;
+      margin-top: 10px;
+
+      .xiang {
+        display: flex;
+
+        .shi1{
+          background: url('../../assess/assetManagement/box_zyyw_sele.png') center center no-repeat;
+        }
+        .shi {
+          width: 155px;
+          height: 54px;
+          margin-left: 10px;
+          margin-top: 10px;
+          background: url('../../assess/assetManagement/box_zyyw.png') center center no-repeat;
+          background-size: 100% 100%;
+          
+          p {
+            height: 44px;
+            color: #76FFFF;
+            // color: #5C8AFF;
+            line-height: 54px;
+            margin-left: 34px;
+            font-size: 14px
+          }
+        }
+
+        span {
+          display: inline-block;
+          height: 26px;
+          line-height: 26px;
+          margin: 4px 0 0 103px;
+          color: #fff;
+        }
+
+        p {
+          height: 44px;
+          color: #76FFFF;
+          line-height: 44px;
+          margin-left: 103px;
+          font-size: 28px
+        }
+      }
+      
+      .xiangmuxianqing{
+        width: 620px;
+        height: 310px;
+        // padding-top: 30px;
+        background: url('../../assess/engin/box_zjgc_pro(1).png') center center no-repeat;
+      }
+
+      .xinxi {
+        width: 627px;
+        height: 20px;
+        padding-left: 10px;
+        // background: url('../../assess/engin/box_zjgc_pro(1).png') center center no-repeat;
+        margin: 21px 0 16px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span {
+          color: #fff;
+        }
+      }
+
+
+
+
+    }
+
+    .other {
+      width: 500px;
+      height: 232px;
+      margin-top: 10px;
+      .xin {
+        width: 500px;
+        height: 37px;
+        background: url('../../assess/assetManagement/img_qtzc_2.png') center center no-repeat;
+        background-size: 100% 100%;
+     
+        position: relative;
+  
+        margin: 21px 0 16px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span {
+          color: #fff;
+          font-size: 14px;
+
+        }
+      }
+
+      ul {
+        width: 500px;
+        padding-left: 0px;
+
+        li {
+          width: 500px;
+          height: 38px;
+          background: url('../../assess/assetManagement/img_qtzc_2.png') center center no-repeat;
+          background-size: 100% auto;
+          margin-top: 5px;
+          display: flex;
+          margin-left: 0px;
+          position: relative;
+
+          p {
+            width: 332px;
+            margin-left: 25px;
+            line-height: 38px;
+            font-size: 14px;
+
+            color: rgba(255,255,255,0.8);
+          }
+
+          span {
+            color: #95FFE5 ;
+            line-height: 38px;
+            font-size: 14px;
+
+            // float: right;
+          }
+
+          img {
+            position: absolute;
+            left: 574px;
+            top: 6px;
+          }
+        }
+      }
+
+    }
+  }
+
+  .engin-right {
+    position: absolute;
+    width:500px;
+    height:auto;
+
+    right: 30px;
+    z-index: 1;
+
+    .jituan {
+      height: 400px;
+      width: 500px;
+
+      .ech {
+        width: 100%;
+        height: 214px;
+      }
+    }
+
+    .title2 {
+      background: url('../../assess/images/title_2.png') center center no-repeat;
+      background-size: 100% 100%;
+      width: 500px;
+      height: 37px;
+      position: relative;
+      font-size: 15px;
+    }
+
+    .xiang {
+      display: flex;
+      flex-wrap: wrap;
+
+      ul {
+        width: 469px;
+        li {
+          margin-left: 20px;
+          margin-bottom: 10px;
+          width: 100%;
+          height: 28px;
+          background: url('../../assess/assetManagement/box_1_zgs.png') center center no-repeat;
+          background-size: 100% 100%;
+          p {
+            margin-left: 35px;
+            height: 28px;
+            line-height: 28px;
+            font-size: 14px;
+            color: #fff;
+          }
+        }
+
+        .li {
+          background: url('../../assess/assetManagement/box_1_zgs_sele.png') center center no-repeat;
+          background-size: 100% 100%;
+          p {
+            color: #47F4FF;
+          }
+        }
+      }
+
+      .suo {
+        width: 364px;
+        height: 28px;
+        border: #fff 1px solid;
+        position: absolute;
+        right: 0px;
+        top: 280px;
+        color: #fff;
+        font-size: 14px;
+        line-height: 28px;
+        padding-left: 10px;
+        span {
+          margin-left: 120px;
+          width: 13px;
+          height: 8px;
+          background: url('../../assess/assetManagement/Polygon\ 7.png') center no-repeat;
+          // background-size: 100% 100%;
+        }
+      }
+
+      .shu {
+        margin-top: 10px;
+        margin-left: 20px;
+        
+        width: 224px;
+        height: 31px;
+        background: rgba(11,96,175,0.47);
+        border-radius: 34px 34px 34px 34px;
+        opacity: 1;
+        border: 1px solid #4CCFF9;
+
+        p {
+          
+          width: 264px;
+
+          height: 31px;
+          font-size: 14px;
+          font-family: Microsoft YaHei-Regular, Microsoft YaHei;
+          font-weight: 400;
+          color: rgba(255,255,255,0.9);
+          line-height: 31px;
+          -webkit-background-clip: text;
+          // text-align: center;
+          margin-left: 10px;
+          // -webkit-text-fill-color: transparent;
+          // // line-height: 64px;
+          // margin-left: 10px;
+          // font-size: 21px;
+          // text-align: center;
+        }
+      }
+
+      .shu2 {
+        margin-top: 10px;
+        margin-left: 20px;
+        
+        width: 300px;
+        height: 31px;
+        background: rgba(11,96,175,0.47);
+        border-radius: 34px 34px 34px 34px;
+        opacity: 1;
+        border: 1px solid #4CCFF9;
+
+        p {
+          
+          width: 300px;
+
+          height: 31px;
+          font-size: 14px;
+          font-family: Microsoft YaHei-Regular, Microsoft YaHei;
+          font-weight: 400;
+          color: rgba(255,255,255,0.9);
+          line-height: 31px;
+          -webkit-background-clip: text;
+          text-align: center;
+          // -webkit-text-fill-color: transparent;
+          // // line-height: 64px;
+          // margin-left: 10px;
+          // font-size: 21px;
+          // text-align: center;
+        }
+      }
+
+      .gaikuang{
+        padding-top: 20px;
+        width: 480px;
+        height: 146px;
+        background: url('../../assess/assetManagement/title_asset.png') center center no-repeat;
+        background-size: 100% auto;
+        margin-left: 20px;
+
+        .gtitle {
+        // display: flex;
+        float: left;
+
+          width: 72px;
+          height: 24px;
+          padding-left: 25px;
+          padding-top: 4px;
+          font-size: 14px;
+          font-family: Microsoft YaHei-Regular, Microsoft YaHei;
+          font-weight: 400;
+          color: #FFFFFF;
+          line-height: 21px;
+          -webkit-background-clip: text;
+        }
+
+        .gcontent {
+          padding-top: 30px;
+        }
+
+        p {
+          padding-top: 5px;
+          padding-right: 20px;
+          float: right;
+          width: 424px;
+          height: 21px;
+          font-size: 14px;
+          font-family: Microsoft YaHei-Regular, Microsoft YaHei;
+          font-weight: 400;
+          color: #FFFFFF;
+          line-height: 19px;
+          span:nth-child(2) {
+            margin-left: 60px;
+          }
+        }
+      }
+
+      span {
+        margin-top: 10px;
+        padding-left: 30px;
+        display: inline-block;
+        height: 31px;
+        line-height: 31px;
+        // margin: 4px 0 0 103px;
+        color: #fff;
+      }
+
+    }
+
+    .searchgongdi{
+      width: 612px;
+      height: 56px;
+
+      .search {
+        width: 425px;
+        // margin-top: 20px;
+        float: right;
+        // height: 125px;
+        background: url('../../assess/engin/box_resarch2.png') center center no-repeat;
+  
+        p {
+          height: 44px;
+          
+          color: #fff;
+          // line-height: 64px;
+          padding-top: 20px;
+          padding-left: 20px;
+          float: left;
+          text-align: center;
+          font-size: 21px;
+        }
+      }
+
+      .searchbutton{
+        padding-right: -20px;
+        padding-bottom: 10px;
+        width: 40px;
+        background: url('../../assess/engin/icon_resarch2.png') center center no-repeat;
+      }
+    }
+
+
+    h2 {
+      color: #fff;
+      font-size: 15px;
+      font-weight: 500;
+      right: 42px;
+      position: absolute;
+    }
+
+
+
+    .zhaoshang {
+      padding-top: 40px;
+      height: 160px;
+      width: 500px;
+
+      .ech {
+        width: 100%;
+        height: 160px;
+        float: left;
+      }
+    }
+
+    .zhaocai {
+      height: 150px;
+      width: 500px;
+      ul {
+        // height: 99px;
+        padding-left: 50px;
+
+        li {
+          width: 500px;
+          // height: 99px;
+          margin-top: 15px;
+          display: flex;
+          // justify-content: space-between;
+
+
+      .leida {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 220px;
+        height: auto;
+        margin-left: -20px;
+      }
+
+      .table {
+        width: 222px;
+        height: 250px;
+        // float: right;
+        margin-left: 20px;
+  
+        .tabelhead {
+          width: 156px;
+          height: 26px;
+          background: url('../../assess/engin/title_zxgc_gd.png') center center no-repeat;
+        
+          margin-top: 10px;
+          margin-bottom: 14px;
+          
+  
+          p {
+            color: #fff;
+            margin-left: 41px;
+          }
+  
+        }
+        
+        th {
+          width: 40px;
+          text-align:center;
+          color: #fff;
+        }
+          
+        th {
+          color: #fff;
+          text-align:center;
+
+        }
+  
+        td {
+          color: #fff;
+          text-align:center;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+
+  }
+}
